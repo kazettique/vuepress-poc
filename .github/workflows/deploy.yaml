@@ -16,6 +16,6 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: kazettique/vuepress-poc
-          TARGET_BRANCH: gh_pages
+          # TARGET_BRANCH: gh_pages
           BUILD_SCRIPT: npm i && npm run build
           BUILD_DIR: src/.vuepress/dist/
