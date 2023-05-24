@@ -19,4 +19,3 @@ jobs:
           TARGET_BRANCH: gh_pages
           BUILD_SCRIPT: npm i && npm run build
           BUILD_DIR: src/.vuepress/dist/
-=
