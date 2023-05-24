@@ -14,7 +14,7 @@ jobs:
       - name: Build and Deploy
         uses: jenkey2011/vuepress-deploy@master
         env:
-          # ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # TARGET_REPO: kazettique/vuepress-poc
           TARGET_BRANCH: gh_pages
           BUILD_SCRIPT: npm i && npm run build
